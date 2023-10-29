@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--상대적 레이아웃 구성-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/daejeon1">
+<!--대전 소개버튼인 button1-->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:onClick="myListener"
+        android:text="대전 소개"
+        android:textSize="12pt"/>
+<!--관광지 리스트뷰 버튼인 button2-->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="80dp"
+        android:layout_y="80dp"
+        android:onClick="myListener2"
+        android:layout_below="@id/button1"
+        android:text="유명 관광지"
+        android:textSize="12pt" />
+<!--맛집 리스트뷰 버튼인 button3-->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_x="80dp"
+        android:layout_y="80dp"
+        android:layout_below="@id/button2"
+        android:onClick="myListener3"
+        android:text="맛집"
+        android:textSize="12pt"/>
+
+</RelativeLayout>

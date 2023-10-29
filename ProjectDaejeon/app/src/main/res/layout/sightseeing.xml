@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--상대적 레이아웃 배치-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".SightseeingActivity">
+    <!--관광지 목록을 리스트 뷰로 배치-->
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

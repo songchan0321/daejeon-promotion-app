@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--상대적 레이아웃 배치-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntroActivity">
+    <!--drawable의 이미지 파일을 참조해 이미지 뷰로 나타냄-->
+    <ImageView
+        android:id="@+id/D1_image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/daejeon2"/>
+    <!--이미지 뷰 아래에 입력해놓은 텍스트 뷰 표시-->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/D1_image"
+        android:text="대전광역시는 충청도 중남부에 자리한 광역자치단체. 충청권 제1의 도시로 중부지방과 영-호남을 잇는 교통의 요지이자 대덕연구개발특구,
+    국제과학비즈니스벨트가 조성된 한국 최대의 과학·연구도시이다. 또한 4년제 대학만 13곳이 소재한 교육도시이다.
+    그와 동시에 관세청, 특허청, 통계청, 조달청, 문화재청, 산림청, 병무청, 국가기록원,
+    특허심판원 등이 소재한 정부대전청사와 다수의 국가기관 본사가 자리한 행정도시이다. 또 3군 본부와 인접해 있고,
+    육군대학, 해군대학, 공군대학, 국군의학연구소, 국방정신전력원, 국군대전병원, 국군간호사관학교, 국군의무학교,
+    합동군사대학교 등이 모여있는 자운대와 육군군수사령부, 국방과학연구소가 자리해 군사도시의 기능도 수행하고 있다."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#733DBF"
+        android:textSize="8pt"/>
+</RelativeLayout>
